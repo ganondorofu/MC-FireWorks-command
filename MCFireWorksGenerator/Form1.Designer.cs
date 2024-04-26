@@ -91,6 +91,11 @@ namespace MCFireWorksGenerator
             this.checkBox48 = new System.Windows.Forms.CheckBox();
             this.label8 = new System.Windows.Forms.Label();
             this.button2 = new System.Windows.Forms.Button();
+            this.label9 = new System.Windows.Forms.Label();
+            this.textBox6 = new System.Windows.Forms.TextBox();
+            this.textBox7 = new System.Windows.Forms.TextBox();
+            this.label10 = new System.Windows.Forms.Label();
+            this.textBox8 = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // checkBox1
@@ -707,11 +712,61 @@ namespace MCFireWorksGenerator
             this.button2.UseVisualStyleBackColor = true;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Location = new System.Drawing.Point(372, 87);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(170, 12);
+            this.label9.TabIndex = 72;
+            this.label9.Text = "X                  Y                  Z";
+            // 
+            // textBox6
+            // 
+            this.textBox6.Font = new System.Drawing.Font("MS UI Gothic", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.textBox6.Location = new System.Drawing.Point(526, 45);
+            this.textBox6.Name = "textBox6";
+            this.textBox6.Size = new System.Drawing.Size(65, 34);
+            this.textBox6.TabIndex = 71;
+            this.textBox6.Text = "0.0";
+            // 
+            // textBox7
+            // 
+            this.textBox7.Font = new System.Drawing.Font("MS UI Gothic", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.textBox7.Location = new System.Drawing.Point(445, 45);
+            this.textBox7.Name = "textBox7";
+            this.textBox7.Size = new System.Drawing.Size(61, 34);
+            this.textBox7.TabIndex = 70;
+            this.textBox7.Text = "0.0";
+            // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.Location = new System.Drawing.Point(363, 9);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(156, 12);
+            this.label10.TabIndex = 69;
+            this.label10.Text = "発射する方向を指定してください";
+            // 
+            // textBox8
+            // 
+            this.textBox8.Font = new System.Drawing.Font("MS UI Gothic", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.textBox8.Location = new System.Drawing.Point(365, 45);
+            this.textBox8.Name = "textBox8";
+            this.textBox8.Size = new System.Drawing.Size(64, 34);
+            this.textBox8.TabIndex = 68;
+            this.textBox8.Text = "0.0";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(655, 574);
+            this.Controls.Add(this.label9);
+            this.Controls.Add(this.textBox6);
+            this.Controls.Add(this.textBox7);
+            this.Controls.Add(this.label10);
+            this.Controls.Add(this.textBox8);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.checkBox26);
@@ -776,6 +831,7 @@ namespace MCFireWorksGenerator
             this.Controls.Add(this.checkBox1);
             this.Name = "Form1";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -844,6 +900,11 @@ namespace MCFireWorksGenerator
         private System.Windows.Forms.CheckBox checkBox48;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.TextBox textBox6;
+        private System.Windows.Forms.TextBox textBox7;
+        private System.Windows.Forms.Label label10;
+        private System.Windows.Forms.TextBox textBox8;
     }
 }
 

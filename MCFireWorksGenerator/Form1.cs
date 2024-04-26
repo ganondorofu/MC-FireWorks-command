@@ -1434,15 +1434,21 @@ namespace MCFireWorksGenerator
           + ",10346495";
                     }
                 }
-                Color = Color
+            string Motion = "Motion:[" + textBox8.Text + "d," + textBox7.Text + "d," + textBox6.Text + "d" + "]";
+            Color = Color
                       + "]";//かっこを閉じる
                 FadeColor = FadeColor
                       + "]";//かっこを閉じる
                 Command = Command
-                        + "{" + LifeTime + ",FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Explosions:[{"
-                        + Type + Flicker + "," + Trail + "," + Color + "," + FadeColor + "," + "}],Flight:1}}}}";
+                        + "{" + LifeTime + "," + Motion + ",FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Explosions:[{"
+                        + Type + "," + Flicker + "," + Trail + "," + Color + "," + FadeColor + "}],Flight:1}}}}";
             Clipboard.SetText(Command);
             MessageBox.Show("コマンドをクリップボードに保存しました。");
             }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
         }
+    }
     }
