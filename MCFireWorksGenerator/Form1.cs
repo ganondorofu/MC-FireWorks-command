@@ -19,13 +19,13 @@ namespace MCFireWorksGenerator
         }
         private void button2_Click(object sender, EventArgs e)
         {
-            string Command = "/summon firework_rocket " + textBox1.Text + (" ") + textBox2.Text + (" ") + textBox3.Text + (" ");
+            string Command = "/summon firework_rocket " + textBox1.Text + (" ") + textBox2.Text + (" ") + textBox3.Text + (" ");//生成座標指定
             string Color = "Colors:[I;";//色選択
             int Multi = 0;//色の複数選択を認識用
             string Type = "Type:" + textBox5.Text;//タイプを選択
             string LifeTime = "LifeTime:" + textBox4.Text;//高さを設定
             string Flicker;//ぱらぱら
-            string Trail;
+            string Trail;//トレイルエフェクト
             int AfterMulti = 0;//爆発後の色の複数選択を認識用
             string FadeColor = "FadeColors:[I;";//色選択
             if (checkBox22.Checked == true)
@@ -688,17 +688,17 @@ namespace MCFireWorksGenerator
           + ",10346495";
                     }
                 }
-            string Motion = "Motion:[" + textBox8.Text + "d," + textBox7.Text + "d," + textBox6.Text + "d" + "]";
+            string Motion = "Motion:[" + textBox8.Text + "d," + textBox7.Text + "d," + textBox6.Text + "d" + "]";//発射する方向指定
             Color = Color
                       + "]";//かっこを閉じる
                 FadeColor = FadeColor
                       + "]";//かっこを閉じる
-                Command = Command
+                Command = Command //全要素を結合
                         + "{" + LifeTime + "," + Motion + ",FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Explosions:[{"
                         + Type + "," + Flicker + "," + Trail + "," + Color + "," + FadeColor + "}],Flight:1}}}}";
-            if (checkBox49.Checked == true)
+            if (checkBox49.Checked == true)//自動コピー確認
             {
-                Clipboard.SetText(Command);
+                Clipboard.SetText(Command);//クリップボードに保存
                 MessageBox.Show("コマンドをクリップボードに保存しました。", "コマンド生成完了");
             }
             else
