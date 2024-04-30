@@ -1,0 +1,10 @@
+C:\Users\56\Desktop\Visual_Studio\MCFireWorksGenerator\MCFireWorksGenerator\bin\Release\MCFireWorksGenerator.exe.config
+C:\Users\56\Desktop\Visual_Studio\MCFireWorksGenerator\MCFireWorksGenerator\bin\Release\MCFireWorksGenerator.exe
+C:\Users\56\Desktop\Visual_Studio\MCFireWorksGenerator\MCFireWorksGenerator\bin\Release\MCFireWorksGenerator.pdb
+C:\Users\56\Desktop\Visual_Studio\MCFireWorksGenerator\MCFireWorksGenerator\obj\Release\MCFireWorksGenerator.Form1.resources
+C:\Users\56\Desktop\Visual_Studio\MCFireWorksGenerator\MCFireWorksGenerator\obj\Release\MCFireWorksGenerator.Properties.Resources.resources
+C:\Users\56\Desktop\Visual_Studio\MCFireWorksGenerator\MCFireWorksGenerator\obj\Release\MCFireWorksGenerator.csproj.GenerateResource.cache
+C:\Users\56\Desktop\Visual_Studio\MCFireWorksGenerator\MCFireWorksGenerator\obj\Release\MCFireWorksGenerator.csproj.CoreCompileInputs.cache
+C:\Users\56\Desktop\Visual_Studio\MCFireWorksGenerator\MCFireWorksGenerator\obj\Release\MCFireWorksGenerator.exe
+C:\Users\56\Desktop\Visual_Studio\MCFireWorksGenerator\MCFireWorksGenerator\obj\Release\MCFireWorksGenerator.pdb
+C:\Users\56\Desktop\Visual_Studio\MCFireWorksGenerator\MCFireWorksGenerator\obj\Release\MCFireWorksGenerator.csproj.AssemblyReference.cache
