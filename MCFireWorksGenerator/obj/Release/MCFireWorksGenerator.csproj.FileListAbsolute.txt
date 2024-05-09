@@ -8,3 +8,13 @@ C:\Users\56\Desktop\Visual_Studio\MCFireWorksGenerator\MCFireWorksGenerator\obj\
 C:\Users\56\Desktop\Visual_Studio\MCFireWorksGenerator\MCFireWorksGenerator\obj\Release\MCFireWorksGenerator.exe
 C:\Users\56\Desktop\Visual_Studio\MCFireWorksGenerator\MCFireWorksGenerator\obj\Release\MCFireWorksGenerator.pdb
 C:\Users\56\Desktop\Visual_Studio\MCFireWorksGenerator\MCFireWorksGenerator\obj\Release\MCFireWorksGenerator.csproj.AssemblyReference.cache
+C:\Users\よねかわ　はるき\Desktop\Github\MC-FireWorks-command\MCFireWorksGenerator\bin\Release\MCFireWorksGenerator.exe.config
+C:\Users\よねかわ　はるき\Desktop\Github\MC-FireWorks-command\MCFireWorksGenerator\bin\Release\MCFireWorksGenerator.exe
+C:\Users\よねかわ　はるき\Desktop\Github\MC-FireWorks-command\MCFireWorksGenerator\bin\Release\MCFireWorksGenerator.pdb
+C:\Users\よねかわ　はるき\Desktop\Github\MC-FireWorks-command\MCFireWorksGenerator\obj\Release\MCFireWorksGenerator.csproj.AssemblyReference.cache
+C:\Users\よねかわ　はるき\Desktop\Github\MC-FireWorks-command\MCFireWorksGenerator\obj\Release\MCFireWorksGenerator.Form1.resources
+C:\Users\よねかわ　はるき\Desktop\Github\MC-FireWorks-command\MCFireWorksGenerator\obj\Release\MCFireWorksGenerator.Properties.Resources.resources
+C:\Users\よねかわ　はるき\Desktop\Github\MC-FireWorks-command\MCFireWorksGenerator\obj\Release\MCFireWorksGenerator.csproj.GenerateResource.cache
+C:\Users\よねかわ　はるき\Desktop\Github\MC-FireWorks-command\MCFireWorksGenerator\obj\Release\MCFireWorksGenerator.csproj.CoreCompileInputs.cache
+C:\Users\よねかわ　はるき\Desktop\Github\MC-FireWorks-command\MCFireWorksGenerator\obj\Release\MCFireWorksGenerator.exe
+C:\Users\よねかわ　はるき\Desktop\Github\MC-FireWorks-command\MCFireWorksGenerator\obj\Release\MCFireWorksGenerator.pdb
